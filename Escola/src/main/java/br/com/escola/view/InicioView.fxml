@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.escola.controller.InicioController">
+   <children>
+      <Button layoutX="206.0" layoutY="225.0" mnemonicParsing="false" onAction="#cadastrarProfessor" text="Cadastrar Professor" />
+      <Button layoutX="341.0" layoutY="225.0" mnemonicParsing="false" onAction="#cadastrarAluno" text="Cadastrar Aluno" />
+      <Button layoutX="457.0" layoutY="225.0" mnemonicParsing="false" onAction="#verRel" text="Verificar Relacionamento" />
+      <Button layoutX="206.0" layoutY="267.0" mnemonicParsing="false" onAction="#cadastrarMateria" text="Cadastrar Matéria" />
+      <Button layoutX="341.0" layoutY="267.0" mnemonicParsing="false" onAction="#consultar" text="Consultar Vinculo" />
+   </children>
+</AnchorPane>

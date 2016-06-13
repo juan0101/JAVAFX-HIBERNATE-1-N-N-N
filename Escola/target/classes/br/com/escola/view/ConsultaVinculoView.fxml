@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.escola.controller.ConsultaVinculoController">
+   <children>
+      <Label layoutX="21.0" layoutY="46.0" text="Professor:" />
+      <TextField fx:id="idProfessor" layoutX="21.0" layoutY="63.0" promptText="ID" />
+      <Button layoutX="21.0" layoutY="97.0" mnemonicParsing="false" onAction="#pesquisaProfessor" text="Consultar" />
+      <Label layoutX="218.0" layoutY="46.0" text="Aluno:" />
+      <TextField fx:id="idAluno" layoutX="218.0" layoutY="63.0" promptText="ID" />
+      <Button layoutX="218.0" layoutY="97.0" mnemonicParsing="false" onAction="#pesquisaAluno" text="Consultar" />
+      <Label layoutX="415.0" layoutY="46.0" text="Matéria:" />
+      <TextField fx:id="idMateria" layoutX="415.0" layoutY="63.0" promptText="ID" />
+      <Button layoutX="415.0" layoutY="97.0" mnemonicParsing="false" onAction="#pesquisaMateria" text="Consultar" />
+      <TableView fx:id="tabela_consulta" layoutX="21.0" layoutY="166.0" prefHeight="317.0" prefWidth="309.0">
+         <columns>
+            <TableColumn fx:id="coluna_nome" prefWidth="308.0" text="NOME" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
